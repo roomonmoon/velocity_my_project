@@ -1,0 +1,704 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    /* box-sizing: border-box; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+    
+    
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.h1_header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+    color: #69B9FF;   
+}
+
+.header_home_contact a {
+    margin-left: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    
+    
+    color: #676770;
+}
+
+#header_home {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #0082F3;
+}
+
+.header_img {
+    width: 100%;
+    height: 594px;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_img_text h1{
+    padding-top: 150px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 60px;
+    /* identical to box height, or 102% */
+    
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.header_img_buttons {
+    text-align: center;
+    margin: 130px;
+}
+
+.header_img_button_first {
+    padding: 15px 30px;
+    margin-right: 20px;
+    background: #69B9FF;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+
+.header_img_button_first:hover {
+    background-color: white;
+    color: #69b9ff;
+}
+
+.header_img_button_second {
+    padding: 13px 30px;
+    margin-left: 20px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.header_img_button_second:hover {
+    background: #fff;
+    color: black;
+}
+
+.second_part {
+    height: 600px;
+}
+
+.second_part_text {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.second_part_text h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+    color: #676770;
+}
+
+.second_part_text h2 {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+    
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #8E8E9C;
+}
+
+.three_block_elements {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.block_one, .block_two, .block_three {
+    width: 500px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+}
+
+/* Первый блок */
+
+.block_one img {
+    display: flex;
+    margin-top: 15%;
+}
+
+.block_one h1 {
+    padding: 30px 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    
+    color: #676770;
+}
+
+.block_one h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    
+    text-align: center;
+    
+    color: #6A859C;
+}
+
+/* Конец первого блока */
+
+.block_two img {
+    display: flex;
+    margin-top: 15%;
+}
+
+.block_two h1 {
+    padding: 30px 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    
+    color: #676770;
+}
+
+.block_two h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    
+    text-align: center;
+    
+    color: #6A859C;
+}
+
+/* Конец второго блока */
+
+/* Третий блок */
+
+.block_three img {
+    display: flex;
+    margin-top: 15%;
+}
+
+.block_three h1 {
+    padding: 30px 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    
+    color: #676770;
+}
+
+.block_three h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    
+    text-align: center;
+    
+    color: #6A859C;
+}
+
+/* Конец третьего блока */
+
+.third_part {
+    background-color: #192024;
+    height: 900px;
+}
+
+.third_part_blocks {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    padding-top: 50px;
+}
+
+.third_part_header_text h1 {
+    padding-top: 100px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.third_part_header_text h2 {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+    
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #E8E8E8;
+}
+
+/* Первый блок */
+
+.third_part_block_one {
+    width: 500px;
+}
+
+.third_part_block_one img {
+    width: 100%;
+}
+
+.third_part_block_one h1 {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.third_part_block_one h2 {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+/* Конец первого блока */
+
+/* Второй блок */
+
+.third_part_block_two {
+    width: 500px;
+}
+
+.third_part_block_two img {
+    width: 100%;
+}
+
+.third_part_block_two h1 {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.third_part_block_two h2 {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.third_part_button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.third_part_button:hover {
+    background: #fff;
+    color: black;
+}
+
+/* Конец второго блока */
+
+
+/* Четвёртая часть */
+
+.fourth_part {
+    height: 1155px;
+}
+
+.fourth_part_header_text h1 {
+    padding-top: 60px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+    color: #676770;
+}
+
+.fourth_part_header_text h2 {
+    padding-top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+    
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #8E8E9C;
+}
+
+.fourth_part_buttons {
+    display: flex;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.fourth_part_buttons button {
+    padding: 0px 30px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    background: #92A0AD;
+    border-radius: 4px;
+}
+
+.fourth_part_buttons button:hover {
+    background: #2E80B6;
+}
+
+.fourth_part_image {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fourth_part_bottom_text {
+    text-align: center;
+    width: 600px;
+}
+
+.fourth_part_bottom_text h1 {
+    padding-top: 60px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    
+    text-align: center;
+    
+    color: #676770;
+}
+
+.fourth_part_bottom_text h2 {
+    padding-top: 20px;    
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    /* identical to box height, or 192% */
+    
+    text-align: center;
+    
+    color: #6A859C;
+    
+}
+
+/* Конец четвёртой части */
+
+/* Начало пред конца */
+
+.pre-end {
+    margin-top: 100px;
+    display: flex;
+    /* width: 1400px; */
+    margin-left: 110px;
+}
+
+.pre-end_block_one, .pre-end_block_two, .pre-end_block_three {
+    width: 350px;
+    height: 300px;
+
+}
+
+.pre-end_block_one, .pre-end_block_two, .pre-end_block_three, h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+    color: #676770;
+    
+}
+
+.pre-end_block_one h2 {
+    padding-top: 50px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /* or 179% */
+    
+    
+    color: #6A859C;
+}
+
+.pre-end_block_two ul {
+    padding-top: 20px;
+    float: left;
+    list-style-type: none;
+}
+
+.pre-end_block_two ul li {
+    border-bottom: solid 1px #D5D5E0;
+    padding-top: 20px;
+}
+
+.pre-end_block_two ul li a {
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    
+    
+    color: #668CAD;
+}
+
+.pre-end_block_three ul {
+    padding-top: 10px;
+    float: left;
+    list-style-type: none;
+}
+
+.pre-end_block_three ul li {
+    width: 300px;
+    padding-top: 15px;
+    border-bottom: solid 1px #D5D5E0;
+}
+
+.pre-end_block_three ul li a {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height, or 154% */
+    
+    
+    color: #668CAD;
+}
+
+.pre-end_block_three ul li img {
+    padding-right: 10px;
+    margin-bottom: -2.5px;
+}
+
+.end {
+    height: 100px;
+    background: #383838;
+}
+
+.end_h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: none;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    color: #fff;
+}
