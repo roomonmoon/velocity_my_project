@@ -12,6 +12,7 @@ ul, li {
     margin: 0;
     padding: 0;
     list-style-type: none;
+
 }
     
     
@@ -74,7 +75,7 @@ ul, li {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 29px;
+    font-size: 59px;
     line-height: 60px;
     /* identical to box height, or 102% */
     
@@ -183,13 +184,14 @@ ul, li {
 
 .three_block_elements {
     display: flex;
-    justify-content: center;
-    margin-top: 70px;
+    width: min-content;
+    margin: 70px auto;
 }
 
 .block_one, .block_two, .block_three {
-    width: 500px;
-    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
     background: #FFFFFF;
     border: 1px solid #DCEBF7;
     border-radius: 5px;
@@ -199,11 +201,11 @@ ul, li {
 
 .block_one img {
     display: flex;
-    margin-top: 15%;
+    margin-top: 10px;
 }
 
 .block_one h1 {
-    padding: 30px 0px;
+    padding: 10px 0px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -236,11 +238,11 @@ ul, li {
 
 .block_two img {
     display: flex;
-    margin-top: 15%;
+    margin-top: 10px;
 }
 
 .block_two h1 {
-    padding: 30px 0px;
+    padding: 10px 0px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -275,11 +277,11 @@ ul, li {
 
 .block_three img {
     display: flex;
-    margin-top: 15%;
+    margin-top: 10px;
 }
 
 .block_three h1 {
-    padding: 30px 0px;
+    padding: 10px 0px;
 
     font-family: Open Sans;
     font-style: normal;
@@ -518,6 +520,7 @@ ul, li {
     display: flex;
     width: 700px;
     margin-top: 40px;
+
 }
 
 .fourth_part_buttons button {
@@ -537,6 +540,7 @@ ul, li {
     color: #FFFFFF;
     background: #92A0AD;
     border-radius: 4px;
+    border: none;
 }
 
 .fourth_part_buttons button:hover {
@@ -589,19 +593,17 @@ ul, li {
 /* Начало пред конца */
 
 .pre-end {
-    margin-top: 100px;
     display: flex;
-    /* width: 1400px; */
-    margin-left: 110px;
+    margin: 100px auto;
+    width: min-content;
 }
 
 .pre-end_block_one, .pre-end_block_two, .pre-end_block_three {
-    width: 350px;
-    height: 300px;
-
+    width: 300px;
+    padding: 30px;
 }
 
-.pre-end_block_one, .pre-end_block_two, .pre-end_block_three, h1{
+.pre-end_block_one h1 {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -613,24 +615,38 @@ ul, li {
     text-transform: uppercase;
     
     color: #676770;
-    
 }
 
 .pre-end_block_one h2 {
-    padding-top: 50px;
+    padding-top: 30px;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    /* or 179% */
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
     
     
-    color: #6A859C;
+    color: #668CAD;
+}
+
+.pre-end_block_two h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+    color: #676770;
 }
 
 .pre-end_block_two ul {
-    padding-top: 20px;
+    padding-top: 10px;
     float: left;
     list-style-type: none;
 }
@@ -638,39 +654,54 @@ ul, li {
 .pre-end_block_two ul li {
     border-bottom: solid 1px #D5D5E0;
     padding-top: 20px;
+    width: 300px;
 }
 
 .pre-end_block_two ul li a {
-
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
     
     
     color: #668CAD;
 }
 
+.pre-end_block_three h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+    color: #676770;
+}
+
 .pre-end_block_three ul {
-    padding-top: 10px;
+    padding-top: 15px;
     float: left;
     list-style-type: none;
 }
 
 .pre-end_block_three ul li {
     width: 300px;
-    padding-top: 15px;
+    padding-top: 12.9px;
     border-bottom: solid 1px #D5D5E0;
 }
 
 .pre-end_block_three ul li a {
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 25px;
+    font-size: 13px;
+    line-height: 20px;
     /* identical to box height, or 154% */
     
     
@@ -683,22 +714,22 @@ ul, li {
 }
 
 .end {
-    height: 100px;
+    height: 60px;
     background: #383838;
+    text-align: center;
+
 }
 
-.end_h1 {
-    text-align: center;
-    padding-top: 40px;
+.end_p {
+    padding-top: 20px;
+
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
     text-transform: none;
     /* identical to box height, or 133% */
-    
-    text-align: center;
     
     color: #fff;
 }
